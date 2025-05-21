@@ -1,0 +1,12 @@
+{
+    "projectName": "FlowChart",
+    "languages": [{
+        "id": "flow-chart",
+        "grammar": "src/language/langium-fc/flow-chart.langium",
+        "fileExtensions": [".fc"],
+        "textMate": {
+            "out": "src/language/langium-fc/syntaxes/flow-chart.tmLanguage.json"
+        }
+    }],
+    "out": "src/language/langium-fc/generated"
+}
